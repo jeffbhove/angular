@@ -16,14 +16,6 @@ export class ChartComponent {
         plotBorderWidth: 0,
         plotShadow: false
     },
-    colors: [
-        variables.charts["running.order"].color1.value,
-        variables.charts["running.order"].color2.value,
-        variables.charts["running.order"].color3.value,
-        variables.charts["running.order"].color4.value,
-        variables.charts["running.order"].color5.value,
-        variables.charts["running.order"].color6.value,
-    ],
     title: {
         text: 'Browser<br>shares<br>2017',
         align: 'center',
@@ -40,7 +32,7 @@ export class ChartComponent {
                 distance: -50,
                 style: {
                     fontWeight: 'bold',
-                    color: variables.color.purple.value
+                    color: 'white'
                 }
             },
             startAngle: -90,
